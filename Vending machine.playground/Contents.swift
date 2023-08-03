@@ -78,6 +78,6 @@ class VirtualVendingMachine{
 
 let virtualVendingMachine = VirtualVendingMachine()
 //サクセストゥーバイ　いれたお金
-let isSuccessToBuy = virtualVendingMachine.buyDrink(type: .water, inputedYen: 100)
+let isSuccessToBuy = virtualVendingMachine.buyDrink(type: .water, inputedYen: 200)
 print(isSuccessToBuy)
 
